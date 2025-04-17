@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevJisanX</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- First Page (Start Setup) -->
+        <div id="page1" class="page active">
+            <h1>Developer <a href="http://t.me/treader_jisan" target="_blank">@treader_jisan</a></h1>
+            <h3>Official channel <a href="http://t.me/DevJisanX" target="_blank">DevJisanX</a></h3>
+            <h3>Developer with Premium Knowledge</h3>
+            <div style="height: 20px;"></div>
+            <h3>Setup Quotex UI Premium</h3>
+            <button id="start-setup">Start the Setup</button>
+        </div>
+
+        <!-- Second Page (Bookmarklet) -->
+        <div id="page2" class="page">
+            <h1>Setup Bookmarklet</h1>
+            <h3>Follow these instructions to install:</h3>
+            
+            <a id="bookmarklet-link" href="#" title="Drag this to your bookmarks bar">@DevJisanX</a>
+            
+            <div id="instructions">
+                <p>- For desktop users, drag the link above to your bookmarks bar.</p>
+                <p>- For mobile and tablet users:</p>
+                <ol>
+                    <li>Add this page to your bookmarks.</li>
+                    <li>Edit the bookmark you just created.</li>
+                    <li>Replace the URL with the following code:</li>
+                </ol>
+                <textarea id="bookmarklet-code" readonly></textarea>
+                <button id="copy-code">Copy Code</button>
+            </div>
+            
+            <button class="back-button" id="back-button">Back to Home</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
